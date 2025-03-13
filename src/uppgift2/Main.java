@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Stack<Integer> stack = new Stack<>();
+        Stack<Integer> stack = new Stack<>();//Works like plates
         Scanner input = new Scanner(System.in);
 
             System.out.println("Enter ten numbers: ");
@@ -23,5 +23,7 @@ public class Main {
             while(!stack.isEmpty()) {
                 System.out.print(stack.pop() + " ");
             }
+            //Input:
+            // 3 2 5 6 8 8 2 3 4 4
     }
 }

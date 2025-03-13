@@ -12,7 +12,7 @@ public class Main {
         String code = input.nextLine();
 
         if(hashMap.containsKey(code)) {
-            System.out.println(hashMap.get(code));
+            System.out.println("The course name for " + code + " is " + hashMap.get(code));
         }else {
             System.out.println("the course does not exist");
         }

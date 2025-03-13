@@ -11,11 +11,11 @@ public class main {
 
         String[] words = sentence.split(" ");//split på mellanslag
         for (String w : words) {
-            queue.offer(w.toLowerCase());//Lägger till ord i queue med offer
+            queue.offer(w.toLowerCase());//Lägger till ord i queue med offer, FIFO
         }
 
         while(!queue.isEmpty()){
-            System.out.println(queue.poll());//Poll används för att ta ut orden
+            System.out.println(queue.poll());//Poll används för att ta ut orden,FIFO
         }
     }
 

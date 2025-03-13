@@ -19,7 +19,13 @@ public class Player {
         this.titlesWon = titlesWon;
     }
 
-
+//Methods
+    @Override
+public String toString() {
+    String player="";
+    player += this.name + " " + this.position + " " + this.goals + " " + this.titlesWon;
+    return player;
+}
 
     //getters and setters
     public void setName(String name) {
